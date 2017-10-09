@@ -142,7 +142,7 @@ Class homework
 	print_r($year);
 	foreach($year as $value1)
 	 { echo br."$value1 ";
-	 	$$value1= date('L', strtotime("$value-01-01"));
+	 	$value1= date('L', strtotime("$value1-01-01"));
 	  	for ($i = 0; $i < 1; $i++)
 	 	{
 	   	 switch($value1)
